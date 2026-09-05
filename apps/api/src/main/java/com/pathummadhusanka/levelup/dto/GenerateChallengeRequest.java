@@ -1,7 +1,7 @@
-package com.pathummadhusanka.dto;
+package com.pathummadhusanka.levelup.dto;
 
-import com.pathummadhusanka.enums.Difficulty;
-import com.pathummadhusanka.enums.ProgrammingLanguage;
+import com.pathummadhusanka.levelup.enums.Difficulty;
+import com.pathummadhusanka.levelup.enums.ProgrammingLanguage;
 
 public class GenerateChallengeRequest {
 

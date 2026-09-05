@@ -1,4 +1,4 @@
-package com.pathummadhusanka.dto;
+package com.pathummadhusanka.levelup.dto;
 
 
 public class ChallengeResponse {

@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pathummadhusanka.dto.ChallengeResponse;
-import com.pathummadhusanka.dto.GenerateChallengeRequest;
+import com.pathummadhusanka.levelup.dto.ChallengeResponse;
+import com.pathummadhusanka.levelup.dto.GenerateChallengeRequest;
 import com.pathummadhusanka.levelup.model.Challenge;
 import com.pathummadhusanka.levelup.service.ChallengeService;
 
