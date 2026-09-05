@@ -2,13 +2,30 @@ package com.pathummadhusanka.levelup.model;
 
 
 public class Challenge {
-	private String question;
+	private String title;
+	private String description;
 
-	public Challenge(String question) {
-		this.question = question;
+	public Challenge() {
 	}
 
-	public String getQuestion() {
-		return question;
+	public Challenge(String title, String description) {
+		this.title = title;
+		this.description = description;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 }
